@@ -1,0 +1,33 @@
+.footer{
+    background-color: rgb(44,62,80);
+    .des-footer{
+        text-align: center;
+        color: white;
+    }
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .item{
+        padding: 90px 0;
+        h4{
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 34px;
+        }
+    }
+
+}
+.footer .item .links a i{
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.last-sec-footer{
+    background-color: rgb(26,37,47);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

@@ -1,0 +1,71 @@
+.hero{
+    padding-top: 40px;
+    color: rgb(44,62,80);
+    h1{
+        font-weight: 700;
+
+    }
+}
+
+
+
+.hero span::after{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background-color: rgb(44,62,80);
+    top: 10px;
+    right: 30px;
+    color: rgb(44,62,80);
+}
+.hero span::before{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 5px;
+    background-color: rgb(44,62,80);
+    top: 10px;
+    left: 30px;
+}
+.item{
+    position: relative;
+}
+.layer{
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(26,188,156);
+    span i{
+        height: 100%;
+        font-size: 100px;
+       color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+}
+.item:hover{
+    .layer{
+        opacity: 1;
+
+    }
+}
+.layer-2 {
+    width: 600px;
+    background-color: blue;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+
+}
